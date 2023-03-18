@@ -1,0 +1,53 @@
+.quest {
+   position: relative;
+   width: 100%;
+   max-width: 784px;
+   background-color: #7939ff;
+   padding: 66px 52px 128px 52px;
+   border-radius: 50px;
+}
+
+.quest::before{
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   display: block;
+   width: 84px;
+   height: 93px;
+   background-color: #ff5b5b;
+}
+
+.quest::after{
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   display: block;
+   width: 84px;
+   height: 93px;
+   background-color: #ff5b5b;
+}
+
+.quest > h2 {
+   margin-bottom: 36px;
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.questions{
+   width: fit-content;
+}
+
+.question {
+   padding: 10px 18px 11px 14px;
+   font-size: 20px;
+   font-weight: 500;
+   border: 3px solid #fff;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.question:not(:last-child){
+   margin-bottom: 27px;
+}

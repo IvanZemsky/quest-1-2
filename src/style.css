@@ -1,0 +1,36 @@
+@font-face {
+   font-family: "Inter";
+   src: url(./fonts/inter/Inter-Medium.otf) format("opentype");
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Inter";
+   src: url(./fonts/inter/Inter-Bold.otf) format("opentype");
+   font-weight: 700;
+   font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #a484ff;
+   font-family: "Inter";
+   font-weight: 500;
+   color: #fff;
+}
+
+#root {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   padding: 25px;
+}
