@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/quest-1-2/static/css/main.78b13898.css",
+    "main.js": "/quest-1-2/static/js/main.482c7385.js",
+    "static/media/Inter-Bold.otf": "/quest-1-2/static/media/Inter-Bold.29a77b7e0aa49b534323.otf",
+    "static/media/Inter-Medium.otf": "/quest-1-2/static/media/Inter-Medium.16eda82a3c37a6edda09.otf",
+    "index.html": "/quest-1-2/index.html",
+    "main.78b13898.css.map": "/quest-1-2/static/css/main.78b13898.css.map",
+    "main.482c7385.js.map": "/quest-1-2/static/js/main.482c7385.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78b13898.css",
+    "static/js/main.482c7385.js"
+  ]
+}
